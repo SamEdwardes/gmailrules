@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:z0000001647870003554*8536302919691955856,z0000001647983207554*8646665902347284555,z0000001651507002908*0593987626824303148,z0000001652284194582*1922657453845837317</id>
+	<updated>2022-05-11T15:50:31Z</updated>
+	<author>
+		<name>Sam Edwardes</name>
+		<email>sam.edwardes@rstudio.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001647870003554*8536302919691955856</id>
+		<updated>2022-05-11T15:50:31Z</updated>
+		<content></content>
+		<apps:property name='from' value='support@rstudio.com'/>
+		<apps:property name='label' value='rules/support@rstudio.com'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001647983207554*8646665902347284555</id>
+		<updated>2022-05-11T15:50:31Z</updated>
+		<content></content>
+		<apps:property name='to' value='sam.edwardes+@rstudio.com'/>
+		<apps:property name='label' value='rules/sam.edwardes+@rstudio.com'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001651507002908*0593987626824303148</id>
+		<updated>2022-05-11T15:50:31Z</updated>
+		<content></content>
+		<apps:property name='from' value='notifications@github.com'/>
+		<apps:property name='label' value='rules/notifications@github.com'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001652284194582*1922657453845837317</id>
+		<updated>2022-05-11T15:50:31Z</updated>
+		<content></content>
+		<apps:property name='from' value='rstudio-connect@soleng.rstudioservices.com'/>
+		<apps:property name='label' value='rules/colorado'/>
+		<apps:property name='shouldArchive' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>

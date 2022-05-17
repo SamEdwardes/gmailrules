@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gmailrules"
+version = "0.1.0"
+description = "A nicer UI for managing GMail rules."
+authors = ["SamEdwardes <edwardes.s@gmail.com>"]
+license = "MIT"
+
+[[tool.poetry.source]]
+name = "pyshinydev"
+url = "https://rstudio.github.io/pyshiny-site/pypi"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+shiny = "^0.2.0"
+pydantic = "^1.9.0"
+rich = "^12.4.1"
+xmltodict = "^0.13.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
