@@ -7,14 +7,14 @@ license = "MIT"
 
 [[tool.poetry.source]]
 name = "pyshinydev"
-url = "https://rstudio.github.io/pyshiny-site/pypi"
+url = "https://pyshiny.netlify.app/pypi"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-shiny = "^0.2.0"
 pydantic = "^1.9.0"
 rich = "^12.4.1"
 xmltodict = "^0.13.0"
+shiny = "^0.2.0"
 
 [tool.poetry.dev-dependencies]
 

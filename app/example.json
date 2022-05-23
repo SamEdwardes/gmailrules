@@ -1,0 +1,147 @@
+{
+    "feed": {
+        "@xmlns": "http://www.w3.org/2005/Atom",
+        "@xmlns:apps": "http://schemas.google.com/apps/2006",
+        "title": "Mail Filters",
+        "id": "tag:mail.google.com,2008:filters:z0000001647870003554*8536302919691955856,z0000001647983207554*8646665902347284555,z0000001651507002908*0593987626824303148,z0000001652284194582*1922657453845837317",
+        "updated": "2022-05-11T15:50:31Z",
+        "author": {
+            "name": "Sam Edwardes",
+            "email": "sam.edwardes@rstudio.com"
+        },
+        "entry": [
+            {
+                "category": {
+                    "@term": "filter"
+                },
+                "title": "Mail Filter",
+                "id": "tag:mail.google.com,2008:filter:z0000001647870003554*8536302919691955856",
+                "updated": "2022-05-11T15:50:31Z",
+                "content": null,
+                "apps:property": [
+                    {
+                        "@name": "from",
+                        "@value": "support@rstudio.com"
+                    },
+                    {
+                        "@name": "label",
+                        "@value": "rules/support@rstudio.com"
+                    },
+                    {
+                        "@name": "shouldArchive",
+                        "@value": "true"
+                    },
+                    {
+                        "@name": "shouldNeverSpam",
+                        "@value": "true"
+                    },
+                    {
+                        "@name": "sizeOperator",
+                        "@value": "s_sl"
+                    },
+                    {
+                        "@name": "sizeUnit",
+                        "@value": "s_smb"
+                    }
+                ]
+            },
+            {
+                "category": {
+                    "@term": "filter"
+                },
+                "title": "Mail Filter",
+                "id": "tag:mail.google.com,2008:filter:z0000001647983207554*8646665902347284555",
+                "updated": "2022-05-11T15:50:31Z",
+                "content": null,
+                "apps:property": [
+                    {
+                        "@name": "to",
+                        "@value": "sam.edwardes+@rstudio.com"
+                    },
+                    {
+                        "@name": "label",
+                        "@value": "rules/sam.edwardes+@rstudio.com"
+                    },
+                    {
+                        "@name": "shouldArchive",
+                        "@value": "true"
+                    },
+                    {
+                        "@name": "shouldNeverSpam",
+                        "@value": "true"
+                    },
+                    {
+                        "@name": "sizeOperator",
+                        "@value": "s_sl"
+                    },
+                    {
+                        "@name": "sizeUnit",
+                        "@value": "s_smb"
+                    }
+                ]
+            },
+            {
+                "category": {
+                    "@term": "filter"
+                },
+                "title": "Mail Filter",
+                "id": "tag:mail.google.com,2008:filter:z0000001651507002908*0593987626824303148",
+                "updated": "2022-05-11T15:50:31Z",
+                "content": null,
+                "apps:property": [
+                    {
+                        "@name": "from",
+                        "@value": "notifications@github.com"
+                    },
+                    {
+                        "@name": "label",
+                        "@value": "rules/notifications@github.com"
+                    },
+                    {
+                        "@name": "shouldArchive",
+                        "@value": "true"
+                    },
+                    {
+                        "@name": "sizeOperator",
+                        "@value": "s_sl"
+                    },
+                    {
+                        "@name": "sizeUnit",
+                        "@value": "s_smb"
+                    }
+                ]
+            },
+            {
+                "category": {
+                    "@term": "filter"
+                },
+                "title": "Mail Filter",
+                "id": "tag:mail.google.com,2008:filter:z0000001652284194582*1922657453845837317",
+                "updated": "2022-05-11T15:50:31Z",
+                "content": null,
+                "apps:property": [
+                    {
+                        "@name": "from",
+                        "@value": "rstudio-connect@soleng.rstudioservices.com"
+                    },
+                    {
+                        "@name": "label",
+                        "@value": "rules/colorado"
+                    },
+                    {
+                        "@name": "shouldArchive",
+                        "@value": "true"
+                    },
+                    {
+                        "@name": "sizeOperator",
+                        "@value": "s_sl"
+                    },
+                    {
+                        "@name": "sizeUnit",
+                        "@value": "s_smb"
+                    }
+                ]
+            }
+        ]
+    }
+}
